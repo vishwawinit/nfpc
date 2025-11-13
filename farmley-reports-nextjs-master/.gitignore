@@ -1,0 +1,108 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# testing
+/coverage
+/test-results
+playwright-report/
+test-results/
+screenshots/
+
+# next.js
+/.next/
+/out/
+.next/
+out/
+
+# production
+/build
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+nul
+null
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs and editors
+/.vscode
+/.idea
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Claude Code
+.claude/
+.claude-code/
+
+# Database update scripts and cache
+update_db/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Backup files
+*.bak
+*.backup
+*-backup.ts
+*-fixed.ts
+*-old.ts
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+CLAUDE.md
+.cursor/rules/no-assumptions.mdc
+test-apis.ps1
+CRITICAL_FIX_SUMMARY_DETAILED_VIEW_DATA_MISMATCH.md
+DETAILED_VIEW_UPDATE_COMPLETE.md
